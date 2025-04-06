@@ -2,8 +2,8 @@ import { useState } from "react";
 
 const steps = [
   { 
-    title: "Week 11 - Function art",
-    description: "Today, we'll create art work using functions in Scratch!",
+    title: "Week 12 - Smart Street Lamp",
+    description: "Today, we'll create smart street lamp using Scratch.",
     images: ["images/first.png"] // Removed leading slash
   },
   {
@@ -13,36 +13,41 @@ const steps = [
   },
   {
     title: "Key programming concepts",
-    description: "Today, we'll cover functions, very important concept in most programming languages.",
-    images: ["images/functions.png"] // Removed leading slash
+    description: "Today, we'll cover if conditions.",
+   // Removed leading slash
   },
   
   {
-    title: "Step 1: Open Scratch and remix today's start project(week11)",
-    description: "Please share the start file I provided at the studio Week11. My Stuff -> My Studio -> Week11 -> Start File",
+    title: "Step 1: Open Scratch and remix today's start project(week12)",
+    description: "Please share the start file I provided at the studio Week12. My Stuff -> My Studio -> Week12 -> Start File",
   },
   {
-    title: "Step 2: Let's start coding with basic structure",
-    description: "As you can see, drawing starts with a space key, and it stops with a 'c' key.",
-    images: ["images/basic.png"] // Removed leading slash
+    title: "Step 2: Let's start coding with the Cat sprite",
+    description: "The cat's block describes the cat's behavior.",
+    images: ["images/cat.png"] // Removed leading slash
   },
   {
-    title: "Step 3: Defining function in Scratch",
-    description: "In Scratch, we can define a function by clicking on 'Make a block' and give it a name. This allows us to create reusable code blocks that can be called multiple times.",
-    images: ["images/makeablock.png", "images/blockname.png"] // Removed leading slashes
+    title: "Step 4: Let's code for the light sensor",
+    description: "Sensor of the light is used to detect the movement of the cat.",
+    images: ["images/light.png"] // Removed leading slash
   },
   {
-    title: "Step 4: Let's create one drawing function",
-    description: "Let's create one drawing functions.",
-    images: ["images/centered.png"] // Removed leading slash
+    title: "Step 5: Let's code another project: line tracing",
+    images: ["images/line.png"] // Removed leading slash
   },
   {
-    title: "Step 5: Let's create one more drawing function to make our art more interesting",
-    images: ["images/rotation.png"] // Removed leading slash
+    title: "Step 6: Let's code for the cat",
+    description: "Let's code for the finish block first.",
+    images: ["images/cat1.png"] // Removed leading slash
   },
   {
-    title: "Step 6: Test your drawing and share the project to the studio week11",
-    description: "Dont forget to add your project to the studio week11.",
+    title: "Step 7: Let's code for the cat",
+    description: "Please see how the cat is tracing the line.",
+    images: ["images/cat2.png"] // Removed leading slash
+  },
+  {
+    title: "Step 8: Don't forget to share your projects",
+    description: "Please add your projects to the studio Week12.",
   },
 ];
 
