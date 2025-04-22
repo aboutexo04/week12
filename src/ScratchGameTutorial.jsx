@@ -1,54 +1,30 @@
 import { useState } from "react";
 
 const steps = [
-  { 
-    title: "Week 12 - Smart Street Lamp",
-    description: "Today, we'll create smart street lamp using Scratch.",
-    images: ["images/first.png"] // Removed leading slash
+  {
+    title: "Introduction to Smart-Light Tutorial",
+    description: "In this tutorial, we'll create a smart light in Scratch that turns on automatically when a character approaches it, and a character that responds to keyboard controls.",
+    images: ["/images/first.png"]
   },
   {
-    title: "Seating Chart",
-    description: "Please check your seat and make sure you're in the right place.",
-    images: ["images/seating-chart.png"] // Removed leading slash
+    title: "Step 1: Setting Up the Light Sprite",
+    description: "First, add code to your light sprite to make it partially transparent using the ghost effect. This will be our starting point for the smart light.",
+    images: ["/images/light.png"]
   },
   {
-    title: "Key programming concepts",
-    description: "Today, we'll cover if conditions.",
-   // Removed leading slash
-  },
-  
-  {
-    title: "Step 1: Open Scratch and remix today's start project(week12)",
-    description: "Please share the start file I provided at the studio Week12. My Stuff -> My Studio -> Week12 -> Start File",
+    title: "Step 2: Programming the Light's Behavior",
+    description: "Add proximity detection using a forever loop and distance sensing. This code makes the light show when the cat is nearby and hide when it moves away.",
+    images: ["/images/light.png"]
   },
   {
-    title: "Step 2: Let's start coding with the Cat sprite",
-    description: "The cat's block describes the cat's behavior.",
-    images: ["images/cat.png"] // Removed leading slash
+    title: "Step 3: Setting Up Character Movement",
+    description: "Program the cat sprite to respond to left and right arrow keys, allowing it to move around and trigger the smart light when it gets close enough.",
+    images: ["/images/cat.png"]
   },
   {
-    title: "Step 4: Let's code for the light sensor",
-    description: "Sensor of the light is used to detect the movement of the cat.",
-    images: ["images/light.png"] // Removed leading slash
-  },
-  {
-    title: "Step 5: Let's code another project: line tracing",
-    images: ["images/line.png"] // Removed leading slash
-  },
-  {
-    title: "Step 6: Let's code for the cat",
-    description: "Let's code for the finish block first.",
-    images: ["images/cat1.png"] // Removed leading slash
-  },
-  {
-    title: "Step 7: Let's code for the cat",
-    description: "Please see how the cat is tracing the line.",
-    images: ["images/cat2.png"] // Removed leading slash
-  },
-  {
-    title: "Step 8: Don't forget to share your projects",
-    description: "Please add your projects to the studio Week12.",
-  },
+    title: "Step 4: Testing and Modifications",
+    description: "Run your project by clicking the green flag and test if the light turns on when the cat approaches. Experiment with different distances and effects to customize your smart light system.",
+  }
 ];
 
 export default function ScratchGameTutorial() {
