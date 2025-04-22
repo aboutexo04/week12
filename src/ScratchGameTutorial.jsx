@@ -4,22 +4,22 @@ const steps = [
   {
     title: "Introduction to Smart-Light Tutorial",
     description: "In this tutorial, we'll create a smart light in Scratch that turns on automatically when a character approaches it, and a character that responds to keyboard controls.",
-    images: ["/images/first.png"]
+    images: ["public/images/first.png"]
   },
   {
     title: "Step 1: Setting Up the Light Sprite",
     description: "First, add code to your light sprite to make it partially transparent using the ghost effect. This will be our starting point for the smart light.",
-    images: ["/images/light.png"]
+    images: ["public/images/light.png"]
   },
   {
     title: "Step 2: Programming the Light's Behavior",
     description: "Add proximity detection using a forever loop and distance sensing. This code makes the light show when the cat is nearby and hide when it moves away.",
-    images: ["/images/light.png"]
+    images: ["public/images/light.png"]
   },
   {
     title: "Step 3: Setting Up Character Movement",
     description: "Program the cat sprite to respond to left and right arrow keys, allowing it to move around and trigger the smart light when it gets close enough.",
-    images: ["/images/cat.png"]
+    images: ["public/images/cat.png"]
   },
   {
     title: "Step 4: Testing and Modifications",
